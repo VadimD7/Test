@@ -1,5 +1,5 @@
 var img1 = new Image();
-img1.src = 1.png";
+img1.src = "1.png";
 let img2 = new Image();
 img2.src = "2.png";
 let img3 = new Image();
