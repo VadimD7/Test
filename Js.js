@@ -1,13 +1,13 @@
 var img1 = new Image();
-img1.src = "img/1.png";
+img1.src = 1.png";
 let img2 = new Image();
-img2.src = "img/2.png";
+img2.src = "2.png";
 let img3 = new Image();
-img3.src = "img/3.png";
+img3.src = "3.png";
 let img4 = new Image();
-img4.src = "img/4.png";
+img4.src = "4.png";
 let img5 = new Image();
-img5.src = "img/5.png";
+img5.src = "5.png";
 let quest = [img1, img2, img3, img4, img5];
 let right_answer = [a1, a2, a2, a1, a2]
 let num_img = 0;
@@ -25,8 +25,7 @@ function fnc1(){
     console.log(a1.checked);
     console.log(a2.checked);
     console.log(a3.checked);
-    console.log(a4.checked);
-    console.log(a5.checked);
+    console.log(a4.checked);;
     if (right_answer[num_ans].checked){
         alert("Right answer");
         sum++;
@@ -36,6 +35,6 @@ function fnc1(){
     num_ans++;
 if (num_ans == right_answer.length){
     document.body.remove(tab);
-    alert("Total points:" + sum);
+    alert("Правильных ответов : " + sum);
 }
 }
